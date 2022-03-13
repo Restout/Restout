@@ -22,6 +22,8 @@ public class main  {
 		Integer[] vals= {1,2,3,4,5,6,7,8,9};
 		String [] strs= {"Один", "Два","Три"};
 		int count;
+		PersonalFunc<Integer> res;
+		res=main::countMatching;
 		count =myOp(main::<Integer>countMatching,vals,5);
 		System.out.println("iNTEGER COUNTER: "+count);
 		count=myOp(main::<String>countMatching,strs,"jsd");
